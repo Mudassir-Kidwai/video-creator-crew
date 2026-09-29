@@ -553,10 +553,10 @@ def card(site: Site, page: str, e: dict, show_what: bool = True) -> str:
             break
     spec = e["meta"].split(" · ")[0]
     num = ('<span class="num" data-orig="%s" aria-label="Example %s">%s</span>' % (esc(e["num"]), esc(e["num"]), esc(e["num"])))
-    return ('<article class="film" data-tags="%s" data-orig="%s"><div class="frame"%s><img class="still" src="%s" alt="%s" loading="lazy" decoding="async">%s</div>'
+    return ('<article class="film" id="ex-%s" data-tags="%s" data-orig="%s"><div class="frame"%s><img class="still" src="%s" alt="%s" loading="lazy" decoding="async">%s</div>'
             '<div class="meta">%s<h3><a href="%s">%s</a></h3><span class="spec">%s</span></div>'
             '<p class="ask">\u201c%s\u201d</p>%s<div class="links">%s</div></article>'
-            % (" ".join(e["tags"]), esc(e["num"]), clip_attr, still, esc(e["alt"]), action, num, story, esc(e["title"]), esc(spec), esc(e["prompt"]),
+            % (esc(e["num"]), " ".join(e["tags"]), esc(e["num"]), clip_attr, still, esc(e["alt"]), action, num, story, esc(e["title"]), esc(spec), esc(e["prompt"]),
                ('<p class="shows">%s</p>' % esc(e["what"])) if show_what else "", "".join(links)))
 
 
@@ -871,7 +871,7 @@ def build_landing(site: Site, exs) -> None:
         watch = ('<a class="watch" href="%s">%s<span>Watch the film</span><em>0:40, sound on</em></a>' % (esc(film_fb or "#"), ICON_PLAY))
     hero = ('<div class="screen lights"><video class="teaser" muted loop playsinline preload="auto" poster="%s" aria-hidden="true">'
             '<source src="%s" type="video/webm"><source src="%s" type="video/mp4"></video>%s</div>' % (poster, twebm, tmp4, watch))
-    teaser = [e for e in exs if e["num"] in ("02", "12", "17", "19")]
+    teaser = [e for e in exs if e["num"] in ("02", "07", "12", "13", "17", "19", "20", "23")]
     body = """<section class="house"><div class="wrap">
 <div class="hero-head"><div><h1 class="title">Describe a video. Claude directs. Your machine renders.</h1>
 <p class="lede">showtime is a local video studio for Claude Code: motion graphics, voice-over, music, captions and footage editing
@@ -903,7 +903,7 @@ Make a 20-second launch video for this repo, with a voice-over and upbeat music.
 <p class="lede">Each of these came from one request. Hover to preview; play for sound.</p></div>
 <div class="tools end"><div class="shuffle-bar"><button class="shuffle" type="button" id="shuffle" aria-label="Shuffle the order and numbers of the examples">Shuffle</button>
 <button class="shuffle ghost" type="button" id="reset-order" hidden>Reset order</button></div></div>
-<div class="films">{teaser}</div>
+<div class="films four">{teaser}</div>
 <p class="more"><a class="link-arrow" href="gallery.html">All 23 examples <span>→</span></a></p>
 </div></section>
 
