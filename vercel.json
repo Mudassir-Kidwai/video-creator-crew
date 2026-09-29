@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "installCommand": "python3 -m pip install --user markdown-it-py",
-  "buildCommand": "git clone --depth 1 https://github.com/Mudassir-Kidwai/video-creator-crew-examples _examples && python3 site/build.py --examples _examples/examples --repo Mudassir-Kidwai/video-creator-crew --no-previews --max-html-mb 20 --clean",
+  "installCommand": "python3 -m venv .venv && .venv/bin/pip install markdown-it-py",
+  "buildCommand": "git clone --depth 1 https://github.com/Mudassir-Kidwai/video-creator-crew-examples _examples && .venv/bin/python site/build.py --examples _examples/examples --repo Mudassir-Kidwai/video-creator-crew --no-previews --max-html-mb 20 --clean",
   "outputDirectory": "site/_site"
 }

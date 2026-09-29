@@ -24,3 +24,5 @@ __pycache__/
 Thumbs.db
 .idea/
 .vscode/
+
+.vercel
