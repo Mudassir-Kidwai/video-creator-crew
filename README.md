@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/a11e9613-efd3-490b-a3ec-5583ac65a5d2
 
 
 
-<p align="center"><sub>▶ <a href="https://github.com/FavioVazquez/showtime-examples/releases/download/examples-media-v1/_launch--launch-16x9.mp4"><b>Watch the 40-second launch film</b></a> (sound on). Every frame is from a real showtime example.</sub><br><sub>Music: “With These Hands” by Scott Buckley, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (<a href="https://github.com/FavioVazquez/showtime-examples/blob/main/examples/_launch/credits.txt">credits</a>).</sub></p>
+<p align="center"><sub>▶ <a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/releases/download/examples-media-v1/_launch--launch-16x9.mp4"><b>Watch the 40-second launch film</b></a> (sound on). Every frame is from a real showtime example.</sub><br><sub>Music: “With These Hands” by Scott Buckley, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> (<a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/blob/main/examples/_launch/credits.txt">credits</a>).</sub></p>
 <!-- /HERO -->
 
 <p align="center">
@@ -40,7 +40,7 @@ with no cloud AI services, no API keys and no uploads.
   <a href="#studio-mode"><b>Studio</b></a> ·
   <a href="#what-you-get"><b>Formats</b></a> ·
   <a href="docs/README.md"><b>Docs</b></a> ·
-  <a href="https://faviovazquez.github.io/showtime/"><b>Site</b></a> ·
+  <a href="https://mudassir-kidwai.github.io/video-creator-crew/"><b>Site</b></a> ·
   <a href="#requirements"><b>Requirements</b></a>
 </p>
 
@@ -58,7 +58,7 @@ Restart Claude Code afterwards so it sees them.
 **2. Add showtime to Claude Code:**
 
 ```text
-/plugin marketplace add FavioVazquez/showtime
+/plugin marketplace add Mudassir-Kidwai/video-creator-crew
 /plugin install showtime@showtime
 ```
 
@@ -112,15 +112,15 @@ first look (stills or a fast draft) before the full-quality render, then checks 
 Every example was made by an agent acting as a user, and ships with its project sources and a README
 that tells the story: the request, the assumptions, the commands, what the critic found and what
 changed. Click a preview to open the example. Each one has a card with its prompt and links in
-[`examples/`](https://github.com/FavioVazquez/showtime-examples/blob/main/examples/README.md). Previews are silent; the videos have sound.
+[`examples/`](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/blob/main/examples/README.md). Previews are silent; the videos have sound.
 
 #### Data and reports
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/07-data-story"><img src="assets/readme/gallery/07-data-story.webp" width="260" alt="Warming stripes turn into a bar chart of global temperature since 1880."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/07-data-story">Data story</a></b> · 30 s<br><sub>146 years of NASA temperature from a CSV. Every number on screen comes from the data.</sub></td>
-<td width="33%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/12-energy-report"><img src="assets/readme/gallery/12-energy-report.webp" width="260" alt="A ranked bar chart of US electricity sources moving through the years."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/12-energy-report">Energy report</a></b> · 60 s, narrated<br><sub>How the US power mix changed, from EIA data. Also an <a href="https://github.com/FavioVazquez/showtime-examples/blob/main/examples/12-energy-report/us-power-mix.html">HTML video</a>.</sub></td>
-<td width="33%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/14-usgs-kilauea-pdf"><img src="assets/readme/gallery/14-usgs-kilauea-pdf.webp" width="260" alt="Aerial footage of the Kilauea Fissure 8 lava fountain with a caption card."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/14-usgs-kilauea-pdf">PDF to summary</a></b> · 75 s, English + Spanish<br><sub>A two-page USGS PDF on Kīlauea 2018, with the agency's own footage, stabilized.</sub></td>
+<td width="33%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/07-data-story"><img src="assets/readme/gallery/07-data-story.webp" width="260" alt="Warming stripes turn into a bar chart of global temperature since 1880."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/07-data-story">Data story</a></b> · 30 s<br><sub>146 years of NASA temperature from a CSV. Every number on screen comes from the data.</sub></td>
+<td width="33%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/12-energy-report"><img src="assets/readme/gallery/12-energy-report.webp" width="260" alt="A ranked bar chart of US electricity sources moving through the years."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/12-energy-report">Energy report</a></b> · 60 s, narrated<br><sub>How the US power mix changed, from EIA data. Also an <a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/blob/main/examples/12-energy-report/us-power-mix.html">HTML video</a>.</sub></td>
+<td width="33%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/14-usgs-kilauea-pdf"><img src="assets/readme/gallery/14-usgs-kilauea-pdf.webp" width="260" alt="Aerial footage of the Kilauea Fissure 8 lava fountain with a caption card."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/14-usgs-kilauea-pdf">PDF to summary</a></b> · 75 s, English + Spanish<br><sub>A two-page USGS PDF on Kīlauea 2018, with the agency's own footage, stabilized.</sub></td>
 </tr>
 </table>
 
@@ -128,12 +128,12 @@ changed. Click a preview to open the example. Each one has a card with its promp
 
 <table>
 <tr>
-<td width="50%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/02-explainer-heat-pump"><img src="assets/readme/gallery/02-explainer-heat-pump.webp" width="400" alt="An animated refrigerant cycle: evaporator, compressor, condenser and expansion valve."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/02-explainer-heat-pump">How a heat pump heats a home</a></b> · 45 s<br><sub>A procedural canvas film, narration fitted to the length, a synthesized score. Also an <a href="https://github.com/FavioVazquez/showtime-examples/blob/main/examples/02-explainer-heat-pump/heat-pump.html">HTML video</a>.</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/03-explainer-heat-pump-es"><img src="assets/readme/gallery/03-explainer-heat-pump-es.webp" width="400" alt="The same heat pump film with Spanish labels: condensador, gas caliente."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/03-explainer-heat-pump-es">The same film, in Spanish</a></b> · 51 s<br><sub>Spanish voice and on-screen text, every cut moved to the new narration. Also an <a href="https://github.com/FavioVazquez/showtime-examples/blob/main/examples/03-explainer-heat-pump-es/bomba-de-calor.html">HTML video</a>.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/02-explainer-heat-pump"><img src="assets/readme/gallery/02-explainer-heat-pump.webp" width="400" alt="An animated refrigerant cycle: evaporator, compressor, condenser and expansion valve."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/02-explainer-heat-pump">How a heat pump heats a home</a></b> · 45 s<br><sub>A procedural canvas film, narration fitted to the length, a synthesized score. Also an <a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/blob/main/examples/02-explainer-heat-pump/heat-pump.html">HTML video</a>.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/03-explainer-heat-pump-es"><img src="assets/readme/gallery/03-explainer-heat-pump-es.webp" width="400" alt="The same heat pump film with Spanish labels: condensador, gas caliente."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/03-explainer-heat-pump-es">The same film, in Spanish</a></b> · 51 s<br><sub>Spanish voice and on-screen text, every cut moved to the new narration. Also an <a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/blob/main/examples/03-explainer-heat-pump-es/bomba-de-calor.html">HTML video</a>.</sub></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/13-wikipedia-waggle-dance"><img src="assets/readme/gallery/13-wikipedia-waggle-dance.webp" width="400" alt="A diagram of the waggle dance: the angle to the sun outside becomes the angle to vertical on the comb."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/13-wikipedia-waggle-dance">A Wikipedia article, explained</a></b> · 60 s, English + French<br><sub>The honey bee waggle dance, with real research footage. Also as HTML videos. (CC BY-SA, like its source.)</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/22-manim-circle-area"><img src="assets/readme/gallery/22-manim-circle-area.webp" width="400" alt="A circle made of rings unrolls into a triangle, a Manim animation."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/22-manim-circle-area">Why a circle's area is πr²</a></b> · 70 s + Shorts cut<br><sub>A narrated Manim proof with real animated equations.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/13-wikipedia-waggle-dance"><img src="assets/readme/gallery/13-wikipedia-waggle-dance.webp" width="400" alt="A diagram of the waggle dance: the angle to the sun outside becomes the angle to vertical on the comb."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/13-wikipedia-waggle-dance">A Wikipedia article, explained</a></b> · 60 s, English + French<br><sub>The honey bee waggle dance, with real research footage. Also as HTML videos. (CC BY-SA, like its source.)</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/22-manim-circle-area"><img src="assets/readme/gallery/22-manim-circle-area.webp" width="400" alt="A circle made of rings unrolls into a triangle, a Manim animation."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/22-manim-circle-area">Why a circle's area is πr²</a></b> · 70 s + Shorts cut<br><sub>A narrated Manim proof with real animated equations.</sub></td>
 </tr>
 </table>
 
@@ -141,12 +141,12 @@ changed. Click a preview to open the example. Each one has a card with its promp
 
 <table>
 <tr>
-<td width="50%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/01-launch-tidepool"><img src="assets/readme/gallery/01-launch-tidepool.webp" width="400" alt="Hook cards: No account. No server. No loading spinner."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/01-launch-tidepool">Launch video</a></b> · 20 s<br><sub>A (fictional) notes app: hook cards, its landing page, a scripted recording of the real app.</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/10-launch-showtime"><img src="assets/readme/gallery/10-launch-showtime.webp" width="400" alt="A grid of example videos playing side by side."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/10-launch-showtime">showtime's own launch video</a></b> · 30 s + square cut<br><sub>Real renders, real terminal output, narration made on the rendering machine.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/01-launch-tidepool"><img src="assets/readme/gallery/01-launch-tidepool.webp" width="400" alt="Hook cards: No account. No server. No loading spinner."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/01-launch-tidepool">Launch video</a></b> · 20 s<br><sub>A (fictional) notes app: hook cards, its landing page, a scripted recording of the real app.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/10-launch-showtime"><img src="assets/readme/gallery/10-launch-showtime.webp" width="400" alt="A grid of example videos playing side by side."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/10-launch-showtime">showtime's own launch video</a></b> · 30 s + square cut<br><sub>Real renders, real terminal output, narration made on the rendering machine.</sub></td>
 </tr>
 <tr>
-<td width="50%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/17-product-promo-teapot"><img src="assets/readme/gallery/17-product-promo-teapot.webp" width="400" alt="A silver teapot on black with rising steam."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/17-product-promo-teapot">Product promo, 1:1</a></b> · 20 s + 6 s bumper<br><sub>A museum's CC0 photos of a Christopher Dresser teapot, only facts from the record. Also an <a href="https://github.com/FavioVazquez/showtime-examples/blob/main/examples/17-product-promo-teapot/dresser-teapot.html">HTML video</a>.</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/20-curtain-call-pack"><img src="assets/readme/gallery/20-curtain-call-pack.webp" width="400" alt="Red velvet curtains part on a spotlit stage: the showtime logo sting."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/20-curtain-call-pack">Brand motion pack</a></b> · sting, lower thirds, stingers<br><sub>A 3D logo sting in three layouts, lower thirds with alpha for an editor, made in studio mode. Also as <a href="https://github.com/FavioVazquez/showtime-examples/blob/main/examples/20-curtain-call-pack/html/curtain-call-sting-player.html">HTML</a>.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/17-product-promo-teapot"><img src="assets/readme/gallery/17-product-promo-teapot.webp" width="400" alt="A silver teapot on black with rising steam."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/17-product-promo-teapot">Product promo, 1:1</a></b> · 20 s + 6 s bumper<br><sub>A museum's CC0 photos of a Christopher Dresser teapot, only facts from the record. Also an <a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/blob/main/examples/17-product-promo-teapot/dresser-teapot.html">HTML video</a>.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/20-curtain-call-pack"><img src="assets/readme/gallery/20-curtain-call-pack.webp" width="400" alt="Red velvet curtains part on a spotlit stage: the showtime logo sting."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/20-curtain-call-pack">Brand motion pack</a></b> · sting, lower thirds, stingers<br><sub>A 3D logo sting in three layouts, lower thirds with alpha for an editor, made in studio mode. Also as <a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/blob/main/examples/20-curtain-call-pack/html/curtain-call-sting-player.html">HTML</a>.</sub></td>
 </tr>
 </table>
 
@@ -154,8 +154,8 @@ changed. Click a preview to open the example. Each one has a card with its promp
 
 <table>
 <tr>
-<td width="50%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/06-footage-edit-nasa"><img src="assets/readme/gallery/06-footage-edit-nasa.webp" width="400" alt="A vertical interview with an astronaut and bold word-by-word captions."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/06-footage-edit-nasa">Interview, tightened</a></b> · 72 s, 9:16 + 16:9<br><sub>A public-domain NASA interview cut by transcript, face-tracked to vertical, graded and captioned.</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/16-podcast-audiogram"><img src="assets/readme/gallery/16-podcast-audiogram.webp" width="400" alt="A vertical podcast audiogram with the speaker's name, a waveform and captions."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/16-podcast-audiogram">Podcast audiogram</a></b> · 45 s, 9:16<br><sub>A NASA podcast clip for Reels, TikTok and Shorts, with speaker names and captions.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/06-footage-edit-nasa"><img src="assets/readme/gallery/06-footage-edit-nasa.webp" width="400" alt="A vertical interview with an astronaut and bold word-by-word captions."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/06-footage-edit-nasa">Interview, tightened</a></b> · 72 s, 9:16 + 16:9<br><sub>A public-domain NASA interview cut by transcript, face-tracked to vertical, graded and captioned.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/16-podcast-audiogram"><img src="assets/readme/gallery/16-podcast-audiogram.webp" width="400" alt="A vertical podcast audiogram with the speaker's name, a waveform and captions."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/16-podcast-audiogram">Podcast audiogram</a></b> · 45 s, 9:16<br><sub>A NASA podcast clip for Reels, TikTok and Shorts, with speaker names and captions.</sub></td>
 </tr>
 </table>
 
@@ -163,9 +163,9 @@ changed. Click a preview to open the example. Each one has a card with its promp
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/04-tutorial-tidepool"><img src="assets/readme/gallery/04-tutorial-tidepool.webp" width="260" alt="A notes app with a search palette open and a step card: Find it with search."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/04-tutorial-tidepool">Recorded tutorial</a></b> · 50 s<br><sub>Recorded from a running app; each click lands on the word that names it.</sub></td>
-<td width="33%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/11-tutorial-series-tidepool"><img src="assets/readme/gallery/11-tutorial-series-tidepool.webp" width="260" alt="A drawn notes app with a Markdown checklist being typed."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/11-tutorial-series-tidepool">Tutorial series</a></b> · 2 × 90 s<br><sub>Two canvas episodes sharing one kit. Also as <a href="https://github.com/FavioVazquez/showtime-examples/blob/main/examples/11-tutorial-series-tidepool/episode-01/final.html">HTML videos</a>.</sub></td>
-<td width="33%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/21-tutorial-studio-board"><img src="assets/readme/gallery/21-tutorial-studio-board.webp" width="260" alt="The showtime studio board comparing two concepts side by side."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/21-tutorial-studio-board">Tutorial of a real app</a></b> · 75 s + Shorts cut<br><sub>How to use the showtime studio board, recorded from the real board.</sub></td>
+<td width="33%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/04-tutorial-tidepool"><img src="assets/readme/gallery/04-tutorial-tidepool.webp" width="260" alt="A notes app with a search palette open and a step card: Find it with search."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/04-tutorial-tidepool">Recorded tutorial</a></b> · 50 s<br><sub>Recorded from a running app; each click lands on the word that names it.</sub></td>
+<td width="33%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/11-tutorial-series-tidepool"><img src="assets/readme/gallery/11-tutorial-series-tidepool.webp" width="260" alt="A drawn notes app with a Markdown checklist being typed."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/11-tutorial-series-tidepool">Tutorial series</a></b> · 2 × 90 s<br><sub>Two canvas episodes sharing one kit. Also as <a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/blob/main/examples/11-tutorial-series-tidepool/episode-01/final.html">HTML videos</a>.</sub></td>
+<td width="33%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/21-tutorial-studio-board"><img src="assets/readme/gallery/21-tutorial-studio-board.webp" width="260" alt="The showtime studio board comparing two concepts side by side."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/21-tutorial-studio-board">Tutorial of a real app</a></b> · 75 s + Shorts cut<br><sub>How to use the showtime studio board, recorded from the real board.</sub></td>
 </tr>
 </table>
 
@@ -173,8 +173,8 @@ changed. Click a preview to open the example. Each one has a card with its promp
 
 <table>
 <tr>
-<td width="50%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/05-short-vertical"><img src="assets/readme/gallery/05-short-vertical.webp" width="400" alt="A vertical short with a keycap overlay and the caption: as you type."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/05-short-vertical">Vertical short</a></b> · 15 s, 9:16<br><sub>Three shortcuts: a hook in the first second, karaoke captions, effects on every cut.</sub></td>
-<td width="50%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/19-travel-slideshow-iceland"><img src="assets/readme/gallery/19-travel-slideshow-iceland.webp" width="400" alt="An Iceland waterfall with a small map of the ring road."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/19-travel-slideshow-iceland">Travel slideshow</a></b> · 45 s + 9:16<br><sub>Eight CC0 photos cut to the music, with a live map inset. The vertical is a re-layout, not a crop.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/05-short-vertical"><img src="assets/readme/gallery/05-short-vertical.webp" width="400" alt="A vertical short with a keycap overlay and the caption: as you type."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/05-short-vertical">Vertical short</a></b> · 15 s, 9:16<br><sub>Three shortcuts: a hook in the first second, karaoke captions, effects on every cut.</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/19-travel-slideshow-iceland"><img src="assets/readme/gallery/19-travel-slideshow-iceland.webp" width="400" alt="An Iceland waterfall with a small map of the ring road."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/19-travel-slideshow-iceland">Travel slideshow</a></b> · 45 s + 9:16<br><sub>Eight CC0 photos cut to the music, with a live map inset. The vertical is a re-layout, not a crop.</sub></td>
 </tr>
 </table>
 
@@ -182,9 +182,9 @@ changed. Click a preview to open the example. Each one has a card with its promp
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/08-beat-montage"><img src="assets/readme/gallery/08-beat-montage.webp" width="260" alt="Space photos cut on the beat: the Eagle Nebula."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/08-beat-montage">Beat-synced montage</a></b> · 20 s<br><sub>Public-domain NASA photos cut on the beat of a library track; its CC-BY credit written automatically.</sub></td>
-<td width="33%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/09-studio-trailer"><img src="assets/readme/gallery/09-studio-trailer.webp" width="260" alt="A cinematic tilted close-up of a notes app interface."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/09-studio-trailer">Studio-mode trailer</a></b> · 20 s<br><sub>Four concepts on a local board, picks and notes, a storyboard and an animatic, then the final.</sub></td>
-<td width="33%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/18-book-trailer-war-of-the-worlds"><img src="assets/readme/gallery/18-book-trailer-war-of-the-worlds.webp" width="260" alt="An engraved illustration of a Martian from The War of the Worlds."></a><br><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/18-book-trailer-war-of-the-worlds">Book trailer</a></b> · 30 s + 15 s vertical teaser<br><sub>The War of the Worlds, from public-domain illustrations and lines from the novel.</sub></td>
+<td width="33%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/08-beat-montage"><img src="assets/readme/gallery/08-beat-montage.webp" width="260" alt="Space photos cut on the beat: the Eagle Nebula."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/08-beat-montage">Beat-synced montage</a></b> · 20 s<br><sub>Public-domain NASA photos cut on the beat of a library track; its CC-BY credit written automatically.</sub></td>
+<td width="33%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/09-studio-trailer"><img src="assets/readme/gallery/09-studio-trailer.webp" width="260" alt="A cinematic tilted close-up of a notes app interface."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/09-studio-trailer">Studio-mode trailer</a></b> · 20 s<br><sub>Four concepts on a local board, picks and notes, a storyboard and an animatic, then the final.</sub></td>
+<td width="33%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/18-book-trailer-war-of-the-worlds"><img src="assets/readme/gallery/18-book-trailer-war-of-the-worlds.webp" width="260" alt="An engraved illustration of a Martian from The War of the Worlds."></a><br><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/18-book-trailer-war-of-the-worlds">Book trailer</a></b> · 30 s + 15 s vertical teaser<br><sub>The War of the Worlds, from public-domain illustrations and lines from the novel.</sub></td>
 </tr>
 </table>
 
@@ -192,13 +192,13 @@ changed. Click a preview to open the example. Each one has a card with its promp
 
 <table>
 <tr>
-<td width="50%" valign="top"><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/15-oss-release-black"><img src="assets/readme/gallery/15-oss-release-black.webp" width="400" alt="A code diff: redundant parentheses on the left of an assignment are removed."></a></td>
-<td width="50%" valign="top"><b><a href="https://github.com/FavioVazquez/showtime-examples/tree/main/examples/15-oss-release-black">Open-source release video</a></b> · 35 s, no voice<br><sub>What changes in people's code with Black 26.1.0's 2026 stable style: real before-and-after diffs, the install line and the changelog. Point showtime at a repo, a pull request or a changelog and it makes the same kind of video. (An unofficial summary, made as an example.)</sub></td>
+<td width="50%" valign="top"><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/15-oss-release-black"><img src="assets/readme/gallery/15-oss-release-black.webp" width="400" alt="A code diff: redundant parentheses on the left of an assignment are removed."></a></td>
+<td width="50%" valign="top"><b><a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/15-oss-release-black">Open-source release video</a></b> · 35 s, no voice<br><sub>What changes in people's code with Black 26.1.0's 2026 stable style: real before-and-after diffs, the install line and the changelog. Point showtime at a repo, a pull request or a changelog and it makes the same kind of video. (An unofficial summary, made as an example.)</sub></td>
 </tr>
 </table>
 
 
-<p align="center"><sub>All 22 examples, with their projects and full-quality videos, live in <a href="https://github.com/FavioVazquez/showtime-examples"><b>showtime-examples</b></a>.</sub></p>
+<p align="center"><sub>All 22 examples, with their projects and full-quality videos, live in <a href="https://github.com/Mudassir-Kidwai/video-creator-crew-examples"><b>showtime-examples</b></a>.</sub></p>
 
 > [!NOTE]
 > The **HTML videos** are single files you can open in any browser, offline: the same frames as the
@@ -210,28 +210,28 @@ changed. Click a preview to open the example. Each one has a card with its promp
 
 | # | Prompt |
 |---|---|
-| [01](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/01-launch-tidepool) | Make a 20-second launch video for Tidepool from its landing page and the real app UI, with music and subtle sound effects, no voice-over. |
-| [02](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/02-explainer-heat-pump) | Make a 45-second explainer video with voiceover about how a heat pump heats a home in winter. |
-| [03](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/03-explainer-heat-pump-es) | Now make the Spanish version of the heat pump explainer. |
-| [04](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/04-tutorial-tidepool) | Make a 40-60 second tutorial showing how to create a note, tag it and find it with search in Tidepool. |
-| [05](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/05-short-vertical) | Make a 15-second vertical short for Reels: 3 keyboard shortcuts that make Tidepool fast. |
-| [06](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/06-footage-edit-nasa) | Cut the ums and long pauses out of this interview clip, add captions, and make a vertical 9:16 version for Reels plus a 16:9 version. |
-| [07](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/07-data-story) | Make a 30-second data story from this CSV. |
-| [08](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/08-beat-montage) | Make a 20-second beat-synced montage of space photos. |
-| [09](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/09-studio-trailer) | Let's brainstorm a trailer for Tidepool first. Show me options. |
-| [10](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/10-launch-showtime) | Make a 30-second launch video for showtime itself. Show real things: real renders, real terminal commands, the studio board. Plus a square cut-down. |
-| [11](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/11-tutorial-series-tidepool) | Build a two-episode tutorial series for Tidepool as canvas films: "Capture a note in seconds" and "Find anything with search and tags". |
-| [12](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/12-energy-report) | Make a one-minute narrated video from the EIA's electricity generation data showing how the US power mix changed: coal, gas, wind and solar. |
-| [13](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/13-wikipedia-waggle-dance) | Turn the Wikipedia article on the waggle dance into a 60-second animated explainer, and make a French version too. |
-| [14](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/14-usgs-kilauea-pdf) | Here's a USGS PDF about the 2018 Kīlauea eruption. Make a 75-second narrated summary video, and a Spanish version with subtitles. |
-| [15](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/15-oss-release-black) | Make a 35-second what's-new video for Black 26.1.0: show what the 2026 stable style actually changes in people's code. |
-| [16](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/16-podcast-audiogram) | Cut a 40-second vertical audiogram from this NASA podcast episode for Reels, TikTok and Shorts, with captions and the speakers' names. |
-| [17](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/17-product-promo-teapot) | Make a 20-second square product promo from these museum photos of Christopher Dresser's teapot: sleek, but only facts from the museum record. Plus a 6-second bumper. |
-| [18](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/18-book-trailer-war-of-the-worlds) | Make a 30-second cinematic book trailer for The War of the Worlds using public-domain illustrations and lines from the novel, plus a vertical 15-second teaser. |
-| [19](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/19-travel-slideshow-iceland) | Make a 45-second travel slideshow of an Iceland ring-road trip from these CC0 photos, cut to the music, with a little map showing where each place is. Also a vertical version for Reels. |
-| [20](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/20-curtain-call-pack) | Using our brand, give me a motion pack: a 3D logo sting in wide, square and vertical, four lower thirds my editor can drop into Premiere, and a couple of branded transitions. Show me concepts first. |
-| [21](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/21-tutorial-studio-board) | Record a 75-second narrated tutorial showing how to use the showtime studio board: open it, compare concepts, react, pick one, and send feedback. And a vertical cut for Shorts. |
-| [22](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/22-manim-circle-area) | Make a narrated 70-second math explainer showing why the area of a circle is pi r squared, with real animated equations. |
+| [01](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/01-launch-tidepool) | Make a 20-second launch video for Tidepool from its landing page and the real app UI, with music and subtle sound effects, no voice-over. |
+| [02](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/02-explainer-heat-pump) | Make a 45-second explainer video with voiceover about how a heat pump heats a home in winter. |
+| [03](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/03-explainer-heat-pump-es) | Now make the Spanish version of the heat pump explainer. |
+| [04](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/04-tutorial-tidepool) | Make a 40-60 second tutorial showing how to create a note, tag it and find it with search in Tidepool. |
+| [05](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/05-short-vertical) | Make a 15-second vertical short for Reels: 3 keyboard shortcuts that make Tidepool fast. |
+| [06](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/06-footage-edit-nasa) | Cut the ums and long pauses out of this interview clip, add captions, and make a vertical 9:16 version for Reels plus a 16:9 version. |
+| [07](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/07-data-story) | Make a 30-second data story from this CSV. |
+| [08](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/08-beat-montage) | Make a 20-second beat-synced montage of space photos. |
+| [09](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/09-studio-trailer) | Let's brainstorm a trailer for Tidepool first. Show me options. |
+| [10](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/10-launch-showtime) | Make a 30-second launch video for showtime itself. Show real things: real renders, real terminal commands, the studio board. Plus a square cut-down. |
+| [11](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/11-tutorial-series-tidepool) | Build a two-episode tutorial series for Tidepool as canvas films: "Capture a note in seconds" and "Find anything with search and tags". |
+| [12](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/12-energy-report) | Make a one-minute narrated video from the EIA's electricity generation data showing how the US power mix changed: coal, gas, wind and solar. |
+| [13](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/13-wikipedia-waggle-dance) | Turn the Wikipedia article on the waggle dance into a 60-second animated explainer, and make a French version too. |
+| [14](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/14-usgs-kilauea-pdf) | Here's a USGS PDF about the 2018 Kīlauea eruption. Make a 75-second narrated summary video, and a Spanish version with subtitles. |
+| [15](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/15-oss-release-black) | Make a 35-second what's-new video for Black 26.1.0: show what the 2026 stable style actually changes in people's code. |
+| [16](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/16-podcast-audiogram) | Cut a 40-second vertical audiogram from this NASA podcast episode for Reels, TikTok and Shorts, with captions and the speakers' names. |
+| [17](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/17-product-promo-teapot) | Make a 20-second square product promo from these museum photos of Christopher Dresser's teapot: sleek, but only facts from the museum record. Plus a 6-second bumper. |
+| [18](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/18-book-trailer-war-of-the-worlds) | Make a 30-second cinematic book trailer for The War of the Worlds using public-domain illustrations and lines from the novel, plus a vertical 15-second teaser. |
+| [19](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/19-travel-slideshow-iceland) | Make a 45-second travel slideshow of an Iceland ring-road trip from these CC0 photos, cut to the music, with a little map showing where each place is. Also a vertical version for Reels. |
+| [20](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/20-curtain-call-pack) | Using our brand, give me a motion pack: a 3D logo sting in wide, square and vertical, four lower thirds my editor can drop into Premiere, and a couple of branded transitions. Show me concepts first. |
+| [21](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/21-tutorial-studio-board) | Record a 75-second narrated tutorial showing how to use the showtime studio board: open it, compare concepts, react, pick one, and send feedback. And a vertical cut for Shorts. |
+| [22](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/22-manim-circle-area) | Make a narrated 70-second math explainer showing why the area of a circle is pi r squared, with real animated equations. |
 
 </details>
 
@@ -367,7 +367,7 @@ buttons you click.
   <img alt="Studio mode, on a local board at 127.0.0.1 with a token. 1 concepts: three and a wildcard, with style frames. 2 look and sound, optional: three looks, three music beds, voices. 3 storyboard: every shot with time, picture, text and voice-over. 4 animatic: a draft with the bed, notes by timecode. 5 build and review: the final, checked with showtime qa. Picks and comments come back as data and are logged." src="assets/readme/diagrams/studio-light.svg" width="100%">
 </picture></p>
 
-See [example 09](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/09-studio-trailer) and [example 21](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/21-tutorial-studio-board), which is
+See [example 09](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/09-studio-trailer) and [example 21](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/21-tutorial-studio-board), which is
 a tutorial of the board itself.
 
 <picture>
@@ -491,7 +491,7 @@ attribution writes itself into `credits.txt`.
 
 `showtime manim new|render|check|cues` makes equations, proofs, graphs and grid transforms with Manim
 Community (the `manim` extra; LaTeX is needed only for equations), and times them to the narration.
-[Example 22](https://github.com/FavioVazquez/showtime-examples/tree/main/examples/22-manim-circle-area) cuts a circle into rings, unrolls them into a triangle and
+[Example 22](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/tree/main/examples/22-manim-circle-area) cuts a circle into rings, unrolls them into a triangle and
 lands on
 
 $$A = \tfrac{1}{2} \cdot 2\pi r \cdot r = \pi r^2$$
@@ -513,7 +513,7 @@ So far it has been **tested end to end on an Intel Mac, Linux x86_64 (Ubuntu 24.
 **Apple Silicon is tested in CI** on GitHub's macOS 14 arm64 runners: the core setup and the fast test suite, which includes real renders. A run on a physical Apple Silicon Mac is still welcome.
 Windows 10/11 desktop editions run the same code as Windows Server but have not been run on a real machine yet, nor has Linux arm64.
 The CI workflow runs the fast test suite on Linux x64, Windows x64, Apple Silicon and Intel Macs. Expect rough edges on the untested
-platforms, and please [open an issue](https://github.com/FavioVazquez/showtime/issues) when something breaks.
+platforms, and please [open an issue](https://github.com/Mudassir-Kidwai/video-creator-crew/issues) when something breaks.
 
 | | macOS 14+ | Windows 10/11 (x64) | Linux (glibc 2.28+: Ubuntu 20.04+, Debian 10+) |
 |---|---|---|---|
@@ -562,7 +562,7 @@ setup yourself, use a clone (both share `~/.showtime`).
 macOS and Linux (bash, zsh):
 
 ```bash
-git clone https://github.com/FavioVazquez/showtime
+git clone https://github.com/Mudassir-Kidwai/video-creator-crew
 showtime/skills/showtime/bin/showtime setup
 showtime/skills/showtime/bin/showtime doctor
 showtime/skills/showtime/bin/showtime audio lib fetch
@@ -571,7 +571,7 @@ showtime/skills/showtime/bin/showtime audio lib fetch
 Windows PowerShell (`showtime.cmd` also works from cmd; `showtime.ps1` is there too):
 
 ```powershell
-git clone https://github.com/FavioVazquez/showtime
+git clone https://github.com/Mudassir-Kidwai/video-creator-crew
 & .\showtime\skills\showtime\bin\showtime.cmd setup
 & .\showtime\skills\showtime\bin\showtime.cmd doctor
 & .\showtime\skills\showtime\bin\showtime.cmd audio lib fetch
@@ -746,7 +746,7 @@ voice, rendering, and QA. The glossary is in [CONTEXT.md](CONTEXT.md), and what 
 does not do, and why, is in [.out-of-scope/](.out-of-scope/README.md).
 
 The same guides are also a searchable site, with the gallery playing every example:
-**[faviovazquez.github.io/showtime](https://faviovazquez.github.io/showtime/)**.
+**[mudassir-kidwai.github.io/video-creator-crew](https://mudassir-kidwai.github.io/video-creator-crew/)**.
 
 ## License and credits
 

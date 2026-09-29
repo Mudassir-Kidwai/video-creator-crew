@@ -1,7 +1,7 @@
 name: pages
 
 # Builds the companion site (site/build.py) and deploys it to GitHub Pages.
-# The examples live in their own repository, FavioVazquez/showtime-examples: this workflow checks it out
+# The examples live in their own repository, Mudassir-Kidwai/video-creator-crew-examples: this workflow checks it out
 # next to the site sources, and downloads its media release (the example videos over 10 MB and the launch
 # film, listed in its MEDIA.json) so the gallery can play them.
 # One-time setup: Settings > Pages > Build and deployment > Source: "GitHub Actions" (site/README.md).
@@ -26,7 +26,7 @@ on:
       - ".out-of-scope/**"
       - ".github/workflows/pages.yml"
   # a push or a new media release in showtime-examples can trigger a rebuild:
-  #   gh api repos/FavioVazquez/showtime/dispatches -f event_type=examples-updated
+  #   gh api repos/Mudassir-Kidwai/video-creator-crew/dispatches -f event_type=examples-updated
   repository_dispatch:
     types: [examples-updated]
   workflow_dispatch:
@@ -42,7 +42,7 @@ concurrency:
 
 env:
   PYTHONUTF8: "1"
-  EXAMPLES_REPO: FavioVazquez/showtime-examples
+  EXAMPLES_REPO: Mudassir-Kidwai/video-creator-crew-examples
 
 jobs:
   build:

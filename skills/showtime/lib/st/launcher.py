@@ -98,7 +98,7 @@ GROUPS = [
       "showtime doctor",
       "showtime setup --with asr-turbo"]),
 ]
-INSTALL_DOC = "https://github.com/faviovazquez/showtime#install"
+INSTALL_DOC = "https://github.com/Mudassir-Kidwai/video-creator-crew#install"
 
 
 # User settings. Claude Code's plugin options (/config) reach showtime through the

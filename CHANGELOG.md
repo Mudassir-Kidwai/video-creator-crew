@@ -17,7 +17,7 @@ All notable changes to showtime. Each entry says what changed and why, so this f
 - [ ] **MuseScore_General mirror** (`sf-musescore` extra) downloads slowly from its upstream mirror;
       consider the same release-asset copy.
 - [x] **Repository URL.** README, the marketplace instructions and `site/config.json` use
-      `FavioVazquez/showtime`; `.claude-plugin/plugin.json` has `homepage` and `repository`.
+      `Mudassir-Kidwai/video-creator-crew`; `.claude-plugin/plugin.json` has `homepage` and `repository`.
 - [ ] **First CI run on every OS.** macOS x86_64, Linux x86_64 (Ubuntu 24.04, setup with every
       extra except musicgen, `doctor` and the fast suite green) and Windows x64 (Windows Server 2025 as a
       standard user: setup, doctor, a voiced render with qa, HTML export, captions, the MCP server and the
@@ -32,7 +32,7 @@ All notable changes to showtime. Each entry says what changed and why, so this f
 - [ ] **Example media as release assets** (in showtime-examples). `python3 scripts/publish_media.py --refresh`, create the release
       tag named in `examples/MEDIA.json` (`examples-media-v1`), `python3 scripts/publish_media.py --upload`,
       then point the example READMEs at the printed links (`--links --example N`). `examples/README.md`
-      already links to `https://github.com/FavioVazquez/showtime-examples/releases/download/examples-media-v1/`;
+      already links to `https://github.com/Mudassir-Kidwai/video-creator-crew-examples/releases/download/examples-media-v1/`;
       regenerate those links if the tag changes.
 - [ ] **README hero and benchmark slots.** Follow the publish checklist in `site/README.md`: drag the
       launch film into the `<!-- HERO-VIDEO-URL -->` slot of `README.md` in GitHub's web editor (a user
@@ -41,7 +41,7 @@ All notable changes to showtime. Each entry says what changed and why, so this f
       published, and update the platform badges and the Requirements paragraph after the first Windows
       10/11 desktop and Linux arm64 runs.
 - [ ] **GitHub Pages.** Settings > Pages > Source: GitHub Actions, publish the media release (it now
-      includes the launch films in `examples/_launch/`), run the `pages` workflow and check that https://faviovazquez.github.io/showtime/ (linked
+      includes the launch films in `examples/_launch/`), run the `pages` workflow and check that https://mudassir-kidwai.github.io/video-creator-crew/ (linked
       from `README.md` and `docs/README.md`) is up (`site/README.md` has the steps). Watch the teaser and
       the film once in Safari (Mac and iPhone).
 
@@ -108,7 +108,7 @@ All notable changes to showtime. Each entry says what changed and why, so this f
 ### Changed: the examples have their own repository
 
 - The 22 examples, the launch film, `examples/MEDIA.json` and `scripts/publish_media.py` moved to
-  [showtime-examples](https://github.com/FavioVazquez/showtime-examples), and the media release (every
+  [showtime-examples](https://github.com/Mudassir-Kidwai/video-creator-crew-examples), and the media release (every
   example file over 10 MB and every `.mov`) is that repository's. This repository is the plugin people
   install, well inside the plugin directory's size and file limits. Links to an example point at
   showtime-examples; the README art (`assets/readme/`) stays here.

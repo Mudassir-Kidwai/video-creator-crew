@@ -18,7 +18,7 @@ the site itself, under their OFL licenses in `static/fonts/`).
 ## Build it locally
 
 ```bash
-git clone https://github.com/FavioVazquez/showtime-examples ../showtime-examples   # the examples, next to this clone
+git clone https://github.com/Mudassir-Kidwai/video-creator-crew-examples ../showtime-examples   # the examples, next to this clone
 python3 -m pip install markdown-it-py  # or use showtime's venv: ~/.showtime/venv/bin/python
 python3 site/build.py --media-from ../showtime-examples/examples/    # writes site/_site/
 python3 site/build.py --examples ../showtime-examples/examples --out /tmp/site --clean
@@ -26,7 +26,7 @@ python3 site/build.py --examples ../showtime-examples/examples --out /tmp/site -
 
 Open `site/_site/index.html` in a browser (it works from disk) or serve the folder with
 `python3 -m http.server -d site/_site`. The examples live in their own repository,
-[showtime-examples](https://github.com/FavioVazquez/showtime-examples); the build reads them from
+[showtime-examples](https://github.com/Mudassir-Kidwai/video-creator-crew-examples); the build reads them from
 `--examples DIR`, else from a clone next to this one (`examples_dir` in `config.json`,
 `../showtime-examples/examples`). `--media-from` says where the example videos are: that clone's
 `examples/` folder (the release assets are there if you downloaded them), or a folder of release assets
@@ -45,7 +45,7 @@ is not found is skipped: its card shows the preview loop and links to the releas
 
 `.github/workflows/pages.yml` builds and deploys on every push to `main` that touches the site, the
 docs or the art, on a `repository_dispatch` event named `examples-updated` (send one after changing
-showtime-examples: `gh api repos/FavioVazquez/showtime/dispatches -f event_type=examples-updated`), and on
+showtime-examples: `gh api repos/Mudassir-Kidwai/video-creator-crew/dispatches -f event_type=examples-updated`), and on
 demand. It checks out showtime-examples into `_examples/`, downloads that repository's media release
 (named in its `examples/MEDIA.json`; `gh release download <tag> --pattern '*.mp4' --pattern '*.html'`)
 into `_media/`, then runs `python3 site/build.py --examples _examples/examples --media-from _media
@@ -56,13 +56,13 @@ into `_media/`, then runs `python3 site/build.py --examples _examples/examples -
 
 Do these once, in order, when the repository goes public.
 
-1. **Repository.** `site/config.json` already names `FavioVazquez/showtime` (CI passes
-   `$GITHUB_REPOSITORY`, which wins). The site is served at `https://faviovazquez.github.io/showtime/`;
+1. **Repository.** `site/config.json` already names `Mudassir-Kidwai/video-creator-crew` (CI passes
+   `$GITHUB_REPOSITORY`, which wins). The site is served at `https://mudassir-kidwai.github.io/video-creator-crew/`;
    Pages works while the repository is private on GitHub Pro, but a private repository's Pages site is
    still public to anyone with the link.
 2. **Media release.** In showtime-examples, publish the example media as the release named in its
    `examples/MEDIA.json` (`python3 scripts/publish_media.py --upload`). The links in `examples/README.md` already point at
-   `https://github.com/FavioVazquez/showtime-examples/releases/download/<that tag>/`; if the tag changes,
+   `https://github.com/Mudassir-Kidwai/video-creator-crew-examples/releases/download/<that tag>/`; if the tag changes,
    regenerate them (`python3 scripts/publish_media.py --links`).
 3. **Launch film.** `python3 scripts/publish_media.py --upload` (in showtime-examples) publishes the films in `examples/_launch/`
    (16:9, 1:1, 9:16 and the HTML video) with the rest of the media. The landing page loops the silent teaser
@@ -72,7 +72,7 @@ Do these once, in order, when the repository goes public.
    footer; the composer's terms mean the audio never ships as a separate file.
 4. **Turn on Pages.** Settings > Pages > Build and deployment > Source: **GitHub Actions**. Then
    Actions > pages > Run workflow (or push to `main`). The site appears at
-   `https://faviovazquez.github.io/showtime/`.
+   `https://mudassir-kidwai.github.io/video-creator-crew/`.
 5. **Link the site.** `README.md` (navigation and Docs) and `docs/README.md` already link to that
    address; check the links once the first deploy is green, and add it as the repository's website
    (the gear next to "About").

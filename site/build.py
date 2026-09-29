@@ -919,7 +919,7 @@ when you ask for something from the web.</p></div>
 <div><h3>Checked before it is done</h3><p><code>showtime qa</code> checks loudness, black or frozen frames, captions and platform specs.</p></div></div>
 <p class="more"><a class="link-arrow" href="docs/index.html">Read the docs <span>→</span></a></p>
 </div></section>
-""".format(hero=hero, market=esc(site.repo or CONFIG.get("marketplace", "FavioVazquez/showtime")),
+""".format(hero=hero, market=esc(site.repo or CONFIG.get("marketplace", "Mudassir-Kidwai/video-creator-crew")),
            pipeline=art(site, page, "diagrams/pipeline", "How showtime works: one sentence, Claude directs, a first look, a local render, showtime qa, an MP4 and an HTML video."),
            teaser="".join(card(site, page, e, show_what=False) for e in teaser),
            runs=art(site, page, "diagrams/runs-where", "What runs where: the director in your Claude Code session, the studio on your machine; the web only when you ask."),

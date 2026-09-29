@@ -7,7 +7,7 @@ use and [.out-of-scope/](.out-of-scope/README.md) for what we have decided not t
 ## Set up a development checkout
 
 ```bash
-git clone https://github.com/FavioVazquez/showtime
+git clone https://github.com/Mudassir-Kidwai/video-creator-crew
 cd showtime
 skills/showtime/bin/showtime setup            # Windows: skills\showtime\bin\showtime.cmd setup
 skills/showtime/bin/showtime doctor
@@ -77,7 +77,7 @@ files (CI splits the fast suite into three jobs per OS this way); the split uses
 ## Example media
 
 The examples live in their own repository,
-[showtime-examples](https://github.com/FavioVazquez/showtime-examples): the 22 example folders, the
+[showtime-examples](https://github.com/Mudassir-Kidwai/video-creator-crew-examples): the 22 example folders, the
 launch film, `examples/MEDIA.json` and `scripts/publish_media.py`. Example renders stay small in git
 there: posters, `share.txt`, project sources and videos up to 10 MB. Any single file over 10 MB and every
 `.mov` (ProRes masters) is published as a release asset of that repository instead; `MEDIA.json` lists

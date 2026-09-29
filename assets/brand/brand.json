@@ -119,8 +119,8 @@
  },
  "sound": {
   "logo": "motion/sound-logo.mp3",
-  "sting": "https://github.com/FavioVazquez/showtime-examples/releases/download/examples-media-v1/_brand--sting.mp4",
-  "sting_square": "https://github.com/FavioVazquez/showtime-examples/releases/download/examples-media-v1/_brand--sting-square.mp4",
+  "sting": "https://github.com/Mudassir-Kidwai/video-creator-crew-examples/releases/download/examples-media-v1/_brand--sting.mp4",
+  "sting_square": "https://github.com/Mudassir-Kidwai/video-creator-crew-examples/releases/download/examples-media-v1/_brand--sting-square.mp4",
   "key": "D",
   "loudness_lufs": -14
  },

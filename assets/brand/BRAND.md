@@ -14,7 +14,7 @@ Machine-readable kit: [`brand.json`](brand.json) (the `showtime brand` format; p
 | `logo/` | `mark-hero.svg`, `mark.svg`, `mark-small.svg`, mono marks, `wordmark*.svg`, lockups, `mono-black/white.svg`, `wordmark-terminal*.svg` | everything with a logo |
 | `icon/` | `app-icon-{16…1024}.png`, `app-icon.svg`, `favicon.ico` (16/32/48), `favicon.svg`, `apple-touch-icon.png` (180), `maskable-icon-{192,512}.png` | app, site and plugin icons |
 | `social/` | `github-social-preview.png` (1280x640), `og-image.png` (1200x630), `readme-header-dark.png` / `readme-header-light.png` (1600x400) | repo settings, link previews, README |
-| `motion/` | `sting-poster.jpg`, `sound-logo.mp3`, `source/` (the showtime projects); the sting videos are release assets: [`sting.mp4`](https://github.com/FavioVazquez/showtime-examples/releases/download/examples-media-v1/_brand--sting.mp4) (1920x1080, 6 s), [`sting-square.mp4`](https://github.com/FavioVazquez/showtime-examples/releases/download/examples-media-v1/_brand--sting-square.mp4) (1080x1080) | video intros and outros, launch posts |
+| `motion/` | `sting-poster.jpg`, `sound-logo.mp3`, `source/` (the showtime projects); the sting videos are release assets: [`sting.mp4`](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/releases/download/examples-media-v1/_brand--sting.mp4) (1920x1080, 6 s), [`sting-square.mp4`](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/releases/download/examples-media-v1/_brand--sting-square.mp4) (1080x1080) | video intros and outros, launch posts |
 
 The CLI carries its own 1.8 s cut of the sound logo (the hit and its tail, -20 LUFS, mono WAV) at
 `skills/showtime/lib/st/sounds/sound-logo-short.wav`, so a skill installed on its own still has it; it plays
@@ -114,7 +114,7 @@ and images; the font files themselves stay under the OFL.
 
 ## Motion and sound
 
-**Sting** ([`sting.mp4`](https://github.com/FavioVazquez/showtime-examples/releases/download/examples-media-v1/_brand--sting.mp4), 6.0 s, 1920x1080 30 fps; [`sting-square.mp4`](https://github.com/FavioVazquez/showtime-examples/releases/download/examples-media-v1/_brand--sting-square.mp4),
+**Sting** ([`sting.mp4`](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/releases/download/examples-media-v1/_brand--sting.mp4), 6.0 s, 1920x1080 30 fps; [`sting-square.mp4`](https://github.com/Mudassir-Kidwai/video-creator-crew-examples/releases/download/examples-media-v1/_brand--sting-square.mp4),
 1080x1080; both are assets of the showtime-examples media release, not in git). The frame
 opens on a closed velvet curtain that fills the screen; letterbox bars close to 2.39:1 (1.85:1 in the square
 cut). The house lights dim and the footlights rise (the anticipation), the curtain gives a small tug, then

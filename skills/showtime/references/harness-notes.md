@@ -9,7 +9,7 @@ long commands time out, images cannot be viewed, there is no terminal.
 The supported install is the plugin:
 
 ```text
-/plugin marketplace add FavioVazquez/showtime
+/plugin marketplace add Mudassir-Kidwai/video-creator-crew
 /plugin install showtime@showtime
 ```
 
