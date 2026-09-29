@@ -552,7 +552,7 @@ def card(site: Site, page: str, e: dict, show_what: bool = True) -> str:
             links.append('<a href="%s">HTML video</a>' % rel(page, hl))
             break
     spec = e["meta"].split(" · ")[0]
-    num = ('<span class="num" data-orig="%s" aria-label="Example %s">%s</span>' % (esc(e["num"]), esc(e["num"]), esc(e["num"]))) if show_what else ""
+    num = ('<span class="num" data-orig="%s" aria-label="Example %s">%s</span>' % (esc(e["num"]), esc(e["num"]), esc(e["num"])))
     return ('<article class="film" data-tags="%s" data-orig="%s"><div class="frame"%s><img class="still" src="%s" alt="%s" loading="lazy" decoding="async">%s</div>'
             '<div class="meta">%s<h3><a href="%s">%s</a></h3><span class="spec">%s</span></div>'
             '<p class="ask">\u201c%s\u201d</p>%s<div class="links">%s</div></article>'
@@ -901,8 +901,10 @@ Make a 20-second launch video for this repo, with a voice-over and upbeat music.
 <section class="section"><div class="wrap">
 <div class="section-head"><h2 class="title">Now showing</h2>
 <p class="lede">Each of these came from one request. Hover to preview; play for sound.</p></div>
+<div class="tools end"><div class="shuffle-bar"><button class="shuffle" type="button" id="shuffle" aria-label="Shuffle the order and numbers of the examples">Shuffle</button>
+<button class="shuffle ghost" type="button" id="reset-order" hidden>Reset order</button></div></div>
 <div class="films">{teaser}</div>
-<p class="more"><a class="link-arrow" href="gallery.html">All 22 examples <span>→</span></a></p>
+<p class="more"><a class="link-arrow" href="gallery.html">All 23 examples <span>→</span></a></p>
 </div></section>
 
 <section class="section"><div class="wrap">

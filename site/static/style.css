@@ -138,6 +138,7 @@ p{margin:0}
 .tab .c{color:var(--muted);font-variant-numeric:tabular-nums;margin-left:6px;font-weight:400}
 .count{margin:16px 0 36px;color:var(--muted);font-size:.9rem}
 .tools{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap}
+.tools.end{justify-content:flex-end;margin:0 0 20px}
 .shuffle-bar{display:flex;gap:10px}
 .shuffle{appearance:none;cursor:pointer;font:600 .85rem var(--sans);color:var(--ink);background:none;border:1px solid var(--line);border-radius:99px;padding:8px 18px;transition:border-color .15s,background .15s}
 .shuffle:hover{border-color:var(--ink)}
