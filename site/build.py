@@ -445,7 +445,7 @@ def shell(site: Site, page: str, title: str, body: str, active: str = "", desc: 
            og_url=('\n<meta property="og:url" content="%s">' % esc(page_abs)) if page_abs else "", fav=r(fav), touch=r(touch), css=r("static/style.css"), boot=THEME_BOOT,
            root="../" * page.count("/"), home=r("index.html"), menu=ICON_MENU, links=links, sun=ICON_SUN, body=body,
            version=esc(CONFIG.get("version", "")), docs=r("docs/index.html"), gallery=r("gallery.html"), crew=r("crew.html"),
-           js=r("static/app.js"), font=r("static/fonts/inter.woff2"),
+           js=r("static/app.js"), font=r("static/fonts/dm-sans.woff2"),
            exrepo=('<a href="https://github.com/%s">%s</a>' % (esc(EXAMPLES_REPO), esc(EXAMPLES_REPO.split("/")[-1]))) if EXAMPLES_REPO else "")
 
 
