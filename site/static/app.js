@@ -118,6 +118,37 @@
     var h = (location.hash || '').slice(1); applyFilter(document.querySelector('.tab[data-filter="' + h + '"]') ? h : 'all');
   }
 
+  // shuffle: a random order, and the numbers on the cards follow the new order (Reset restores both)
+  var shuffleBtn = document.getElementById('shuffle'), resetBtn = document.getElementById('reset-order');
+  var wall = document.querySelector('.films');
+  if (shuffleBtn && resetBtn && wall) {
+    var cardsOf = function () { return Array.prototype.slice.call(wall.querySelectorAll('.film[data-orig]')); };
+    var pad = function (n) { return (n < 10 ? '0' : '') + n; };
+    var say = function (t) { var s = document.querySelector('.count'); if (s) s.textContent = t; };
+    var renumber = function (byPosition) {
+      cardsOf().forEach(function (c, i) {
+        var n = c.querySelector('.num'); if (!n) return;
+        var v = byPosition ? pad(i + 1) : c.getAttribute('data-orig');
+        n.textContent = v; n.setAttribute('aria-label', 'Example ' + v);
+      });
+    };
+    shuffleBtn.addEventListener('click', function () {
+      var list = cardsOf();
+      for (var i = list.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = list[i]; list[i] = list[j]; list[j] = t; }
+      list.forEach(function (c) { wall.appendChild(c); });
+      renumber(true); resetBtn.hidden = false;
+      var shown = list.filter(function (c) { return !c.hidden; }).length;
+      say('Shuffled: ' + shown + (shown === 1 ? ' video' : ' videos'));
+    });
+    resetBtn.addEventListener('click', function () {
+      cardsOf().sort(function (a, b) { return a.getAttribute('data-orig') < b.getAttribute('data-orig') ? -1 : 1; })
+        .forEach(function (c) { wall.appendChild(c); });
+      renumber(false); resetBtn.hidden = true;
+      var active = document.querySelector('.tab[aria-pressed="true"]');
+      applyFilter(active ? active.getAttribute('data-filter') : 'all');
+    });
+  }
+
   // ---------- docs: contents that follow the reading position
   var toc = document.querySelectorAll('.toc a');
   if (toc.length && 'IntersectionObserver' in window) {

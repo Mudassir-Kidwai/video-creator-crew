@@ -552,10 +552,11 @@ def card(site: Site, page: str, e: dict, show_what: bool = True) -> str:
             links.append('<a href="%s">HTML video</a>' % rel(page, hl))
             break
     spec = e["meta"].split(" · ")[0]
-    return ('<article class="film" data-tags="%s"><div class="frame"%s><img class="still" src="%s" alt="%s" loading="lazy" decoding="async">%s</div>'
-            '<div class="meta"><h3><a href="%s">%s</a></h3><span class="spec">%s</span></div>'
+    num = ('<span class="num" data-orig="%s" aria-label="Example %s">%s</span>' % (esc(e["num"]), esc(e["num"]), esc(e["num"]))) if show_what else ""
+    return ('<article class="film" data-tags="%s" data-orig="%s"><div class="frame"%s><img class="still" src="%s" alt="%s" loading="lazy" decoding="async">%s</div>'
+            '<div class="meta">%s<h3><a href="%s">%s</a></h3><span class="spec">%s</span></div>'
             '<p class="ask">\u201c%s\u201d</p>%s<div class="links">%s</div></article>'
-            % (" ".join(e["tags"]), clip_attr, still, esc(e["alt"]), action, story, esc(e["title"]), esc(spec), esc(e["prompt"]),
+            % (" ".join(e["tags"]), esc(e["num"]), clip_attr, still, esc(e["alt"]), action, num, story, esc(e["title"]), esc(spec), esc(e["prompt"]),
                ('<p class="shows">%s</p>' % esc(e["what"])) if show_what else "", "".join(links)))
 
 
@@ -577,10 +578,12 @@ def build_gallery(site: Site, groups, exs) -> None:
                             % (rel(page, hl), esc(e["title"])))
     body = """<div class="wrap">
 <header class="room-head"><h1 class="title">Now showing</h1>
-<p class="lede">Twenty-two videos, each made from a single request by an agent acting as a user. Hover to preview, press play for
+<p class="lede">Twenty-three videos, each made from a single request by an agent acting as a user. Hover to preview, press play for
 the full video with sound, or open the story behind it.</p>{exrepo}
 <div class="filters" role="group" aria-label="Filter by use case">{tabs}</div>
-<p class="count" aria-live="polite"></p></header>
+<div class="tools"><p class="count" aria-live="polite"></p>
+<div class="shuffle-bar"><button class="shuffle" type="button" id="shuffle" aria-label="Shuffle the order and numbers of the examples">Shuffle</button>
+<button class="shuffle ghost" type="button" id="reset-order" hidden>Reset order</button></div></div></header>
 <div class="films">{cards}</div>
 <section class="interactive" aria-labelledby="html-videos">
 <div class="section-head"><h2 class="title" id="html-videos">Videos that are web pages</h2>
@@ -590,10 +593,10 @@ control and links to a moment. This one is live; click it and press <kbd>?</kbd>
 <ul class="htmllist">{htmls}</ul>
 </section>
 </div>""".format(tabs="".join(tabs), cards=cards, live=live, exrepo=(
-        '\n<p class="lede">All 22 examples, with their projects and full-quality videos, live in <a href="https://github.com/%s">%s</a>.</p>'
+        '\n<p class="lede">All 23 examples, with their projects and full-quality videos, live in <a href="https://github.com/%s">%s</a>.</p>'
         % (esc(EXAMPLES_REPO), esc(EXAMPLES_REPO.split("/")[-1]))) if EXAMPLES_REPO else "",
                   htmls="".join(htmls) or "<li class='muted'>Not included in this build.</li>")
-    write(site, page, shell(site, page, "Examples", body, "gallery", "Twenty-two videos made with showtime, from one sentence each."))
+    write(site, page, shell(site, page, "Examples", body, "gallery", "Twenty-three videos made with showtime, from one sentence each."))
 
 
 def build_example_pages(site: Site, exs) -> None:
