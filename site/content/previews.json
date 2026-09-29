@@ -88,6 +88,10 @@
   "22-manim-circle-area": {
    "from": 3.93,
    "dur": 4.0
+  },
+  "23-cat-dog": {
+   "from": 0.5,
+   "dur": 4.0
   }
  }
 }
